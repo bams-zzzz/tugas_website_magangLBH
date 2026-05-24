@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,8 +24,14 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`} id="navbar">
       <div className="container">
         <a href="#beranda" className="navbar-logo">
-          <div className="navbar-logo-icon">LBH</div>
-          <span className="navbar-logo-text">Keadilan Nusantara</span>
+          <Image
+            src="/logo-njj.jpg"
+            alt="Logo LBH Nubis Jaya Justitie"
+            width={42}
+            height={42}
+            className="navbar-logo-img"
+          />
+          <span className="navbar-logo-text">Nubis Jaya Justitie</span>
         </a>
         <ul className={`navbar-links ${menuOpen ? "open" : ""}`}>
           {links.map((l) => (

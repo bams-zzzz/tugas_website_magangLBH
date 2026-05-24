@@ -14,11 +14,11 @@ export default function Contact() {
               <div>
                 <h4>Alamat Kantor</h4>
                 <p>
-                  Jl. Merdeka No. 45, Kelurahan Menteng,
+                  Jl. Wr. Supratman No.39, Ngemplak Simongan,
                   <br />
-                  Kecamatan Menteng, Jakarta Pusat,
+                  Kec. Semarang Barat, Kota Semarang,
                   <br />
-                  DKI Jakarta 10310
+                  Jawa Tengah 50148
                 </p>
               </div>
             </div>
@@ -26,14 +26,14 @@ export default function Contact() {
               <div className="contact-icon">📞</div>
               <div>
                 <h4>Telepon</h4>
-                <p>(021) 3456-7890</p>
+                <p>0812-2678-9676</p>
               </div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">✉️</div>
               <div>
                 <h4>Email</h4>
-                <p>info@lbhkeadilannusantara.or.id</p>
+                <p>info@lbhnubisjayajustitie.or.id</p>
               </div>
             </div>
             <div className="contact-item">
@@ -52,11 +52,11 @@ export default function Contact() {
           </div>
           <div className="contact-map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521!2d106.834!3d-6.186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e0!2sMenteng%2C+Jakarta+Pusat!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2!2d110.4!3d-6.98!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sJl.+Wr.+Supratman+No.39%2C+Ngemplak+Simongan%2C+Semarang!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Lokasi LBH Keadilan Nusantara"
+              title="Lokasi LBH Nubis Jaya Justitie"
             />
           </div>
         </div>

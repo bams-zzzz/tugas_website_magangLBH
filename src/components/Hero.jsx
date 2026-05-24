@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="hero" id="beranda">
@@ -9,7 +11,7 @@ export default function Hero() {
               Menegakkan <span className="gold">Keadilan</span> untuk Semua
             </h1>
             <p className="hero-desc">
-              Lembaga Bantuan Hukum Keadilan Nusantara hadir untuk memberikan
+              Lembaga Bantuan Hukum Nubis Jaya Justitie hadir untuk memberikan
               akses keadilan bagi seluruh lapisan masyarakat. Kami menyediakan
               layanan bantuan hukum profesional dan berkualitas.
             </p>
@@ -25,8 +27,14 @@ export default function Hero() {
           <div className="hero-visual">
             <div className="hero-card">
               <div className="hero-card-header">
-                <span className="hero-card-icon">⚖️</span>
-                <span className="hero-card-title">LBH Keadilan Nusantara</span>
+                <Image
+                  src="/logo-njj.jpg"
+                  alt="Logo LBH NJJ"
+                  width={48}
+                  height={48}
+                  className="hero-card-logo"
+                />
+                <span className="hero-card-title">LBH Nubis Jaya Justitie</span>
               </div>
               <p className="hero-card-desc">
                 Berdedikasi melindungi hak-hak hukum masyarakat sejak 2005

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   const year = new Date().getFullYear();
   const links = [
@@ -13,8 +15,15 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <div className="navbar-logo-icon" style={{ width: 36, height: 36, fontSize: "0.9rem" }}>LBH</div>
-            <span className="navbar-logo-text" style={{ fontSize: "1.1rem" }}>Keadilan Nusantara</span>
+            <Image
+              src="/logo-njj.jpg"
+              alt="Logo LBH NJJ"
+              width={36}
+              height={36}
+              className="navbar-logo-img"
+              style={{ borderRadius: "8px" }}
+            />
+            <span className="navbar-logo-text" style={{ fontSize: "1.1rem" }}>Nubis Jaya Justitie</span>
           </div>
           <ul className="footer-links">
             {links.map((l) => (
@@ -25,7 +34,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="footer-bottom">
-          © {year} Lembaga Bantuan Hukum Keadilan Nusantara. Seluruh hak cipta dilindungi.
+          © {year} Lembaga Bantuan Hukum Nubis Jaya Justitie. Seluruh hak cipta dilindungi.
         </div>
       </div>
     </footer>
