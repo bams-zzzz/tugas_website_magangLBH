@@ -33,7 +33,7 @@ export default function Contact() {
               <div className="contact-icon">✉️</div>
               <div>
                 <h4>Email</h4>
-                <p>info@lbhnubisjayajustitie.or.id</p>
+                <p>Lbh.Nubis.Jaya.Justitie@gmail.com</p>
               </div>
             </div>
             <div className="contact-item">
